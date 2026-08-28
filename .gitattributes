@@ -1,0 +1,12 @@
+# Normalize line endings
+# See https://github.com/github/linguist
+public/** linguist-vendored
+**/*.py linguist-detectable
+node_modules/* linguist-vendored
+*.min.js linguist-generated
+
+*.min.css linguist-generated
+*.py linguist-detectable
+*.jpeg binary
+
+*.ico binary
